@@ -25,6 +25,8 @@ public class ComputerPlayer extends Player {
                 break;
         }
 
+        System.out.println("CPU$:" + choice);
+
         return choice;
     }
 
