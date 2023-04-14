@@ -21,4 +21,6 @@ public abstract class Player {
     }
 
     public abstract String getChoice();
+
+    public abstract String getName();
 }

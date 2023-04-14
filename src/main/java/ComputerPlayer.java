@@ -2,6 +2,11 @@ import java.util.List;
 import java.util.Random;
 
 public class ComputerPlayer extends Player {
+    /**
+     * Randomly generate a string from three options.
+     *
+     * @return
+     */
     @Override
     public String getChoice() {
         Random rand = new Random();
@@ -21,5 +26,10 @@ public class ComputerPlayer extends Player {
         }
 
         return choice;
+    }
+
+    @Override
+    public String getName() {
+        return "computer";
     }
 }
