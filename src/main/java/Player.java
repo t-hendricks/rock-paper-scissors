@@ -20,5 +20,5 @@ public abstract class Player {
         this.lose = lose;
     }
 
-    public abstract String inputChoice(List<String> choices);
+    public abstract String getChoice();
 }

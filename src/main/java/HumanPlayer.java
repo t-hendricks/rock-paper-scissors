@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class HumanPlayer extends Player {
     @Override
-    public String inputChoice(List<String> choices) {
+    public String getChoice() {
         Scanner input = new Scanner(System.in);
         System.out.print("User$:");
         String choice = input.nextLine();
 
-        return choice;
+        return choice.toLowerCase();
     }
 }
