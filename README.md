@@ -18,4 +18,4 @@ To set up the app locally on your own system:
 ```
 git clone <https://github.com/user/repo>
 ```
-3. Then open the repo in a text editor or intelliJ
+3. Then open the repo in a text editor or IntelliJ
