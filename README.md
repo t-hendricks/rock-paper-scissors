@@ -1,7 +1,8 @@
 # Rock-Paper-Scissors
 This is an attempt to create a digital imitation of rock-paper-scissors on a terminal.
+
 Diagram
-![Screenshot of the mini-project diagram](./images.diagram.png)
+![Screenshot of the mini-project diagram](./images/diagram.png)
 ## Current Features
 - **PVP**
 - **VS. Computer**
